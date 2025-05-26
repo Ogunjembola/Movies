@@ -1,25 +1,28 @@
 # Movies App
 
-Android app to browse and view details of trending and upcoming movies using the TMDb API.
+Android app to browse trending and upcoming movies using the TMDb API. Built with Kotlin using modern Android development tools and architecture.
 
 ## Features
 
-- Fetch and display latest movies
-- View details: title, release date, overview, rating
-- Uses modern Android development stack
+- Fetch and display a list of movies from TMDb
+- View movie details: title, release date, rating, overview
+- Responsive UI with Jetpack Compose
+- Clean architecture with separation of concerns
 
 ## Screenshots
-##Not available
+
+_Not available_
 
 ## Tech Stack
 
 - **Language**: Kotlin
 - **UI**: Jetpack Compose
 - **Architecture**: MVVM
-- **Dependency Injection**: Hilt
 - **Networking**: Retrofit + Gson
 - **Image Loading**: Coil
+- **Dependency Injection**: Hilt
 - **Navigation**: Jetpack Navigation
+- **State Management**: ViewModel + StateFlow
 
 ## Getting Started
 
@@ -27,7 +30,7 @@ Android app to browse and view details of trending and upcoming movies using the
 
 - Android Studio Hedgehog or newer
 - Minimum SDK 24
-- TMDb API key
+- TMDb API key from https://www.themoviedb.org/
 
 ### Installation
 
